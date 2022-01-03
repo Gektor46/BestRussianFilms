@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Рейтинг фильмов</title>
+	<meta name="description" content="BRF(BestRussianFilms) - это портал посвященный лучшим российским и советским картинам" />
+	<meta name="keywords" content="русское кино, фильмы, фильмы онлайн, hd" />
+	<link rel="stylesheet" href="Assets/css/style.css">
+</head>
+<body>
+	<div class="main">
+		<div class="header">
+			<div class="logo">
+				<div class="logo_text">
+					<h1><a href="index.html">BestRussianFilms</a></h1>
+					<h2>Кино, ставшее культовым!</h2>
+				</div>
+			</div>
+			<div class="menubar">
+				<ul class="menu">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="films.html">Фильмы</a></li>
+					<li><a href="#">Сериалы</a></li>
+					<li class="selected"><a href="rating.html">Рейтинг фильмов</a></li>
+					<li><a href="contact.html">Контакты</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="site_content">
+			<div class="sidebar_container">
+				<div class="sidebar">
+					<h2>Вход</h2>
+					<form method="post" action="#" id="login">
+						<input type="text" name="login_field" placeholder="логин" />
+						<input type="password" name="password_field" placeholder="пароль" />
+						<input type="submit" class="btn" value="войти" />
+						<div class="lables_passreg_text">
+							<span><a href="#">забыли пароль</a></span> | <span><a href="#">регистрация</a></span>
+						</div>
+						
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>Поиск</h2>
+					<form method="post" action="#" id="search_form">
+						<input type="search" name="search_field" placeholder="найти на сайте" />
+						<input type="submit" class="btn" value="найти" />
+					</form>
+				</div>
+				<div class="sidebar">
+					<h2>Новости</h2>
+					<span>29.04.2019</span>
+					<p>Сайт начал свою работу. Ура!!!</p>
+					<a href="#">читать</a>
+				</div>
+				<div class="sidebar">
+					<h2>Рейтинг фильмов</h2>
+					<ul>
+						<li>1) <a href="show.html">Брат</a><span class="raiting_sidebar">8.3</span></li><hr color= "#FFD700">
+						<li>2) <a href="#">Дурак</a><span class="raiting_sidebar">8.1</span></li><hr>
+						<li>3) <a href="#">Легенда №17</a><span class="raiting_sidebar">8.0</span></li><hr>
+						<li>4) <a href="#">Пацаны</a><span class="raiting_sidebar">8.0</span></li><hr>
+						<li>5) <a href="#">Война</a><span class="raiting_sidebar">7.9</span></li><hr>	
+					</ul>	
+				</div>
+				<div class="sidebar">
+					<h2>Рейтинг сериалов</h2>
+					<ul>
+						<li>1) <a href="#">Бригада</a><span class="raiting_sidebar">8.3</span></li><hr color= "#FFD700">
+						<li>2) <a href="#">Метод</a><span class="raiting_sidebar">8.1</span></li><hr>
+						<li>3) <a href="#">Бандитский Петербург 2</a><span class="raiting_sidebar">8.1</span></li><hr>
+						<li>4) <a href="#">Чернобыль</a><span class="raiting_sidebar">7.9</span></li><hr>
+						<li>5) <a href="#">Дальнобойщики</a><span class="raiting_sidebar">7.1</span></li><hr>	
+					</ul>	
+				</div>
+			</div>
+			<div class="content">
+				<table>
+					<tr>
+						<th></th>
+						<th>Фильмы</th>
+						<th>Год</th>
+						<th>Рэйтинг</th>
+					</tr>
+					<tr>
+						<td><img src="Assets/img/2.jpg"></td>
+						<td>1. <a href="show.html">Брат</a></td>
+						<td>1997</td>
+						<td class="rating">8.3</td>
+					</tr>
+					<tr>
+						<td><img src="Assets/img/3.jpg"></td>
+						<td>2. <a href="#">Дурак</a></td>
+						<td>1997</td>
+						<td class="rating">8.1</td>
+					</tr>
+					<tr>
+						<td><img src="Assets/img/4.jpg"></td>
+						<td>3. <a href="#">Легенда №17</a></td>
+						<td>1997</td>
+						<td class="rating">8.0</td>
+					</tr>
+					<tr>
+						<td><img src="Assets/img/5.jpg"></td>
+						<td>4. <a href="#">Пацаны</a></td>
+						<td>1997</td>
+						<td class="rating">8.0</td>
+					</tr>
+					<tr>
+						<td><img src="Assets/img/1.jpg"></td>
+						<td>5. <a href="#">Война</a></td>
+						<td>1997</td>
+						<td class="rating">7.9</td>
+					</tr>
+					
+				</table>
+			</div>
+
+		</div>
+		<div class="footer">
+			<p>
+				<a href="index.html">Главная</a> |
+				<a href="films.html">Фильмы</a> |
+				<a href="#">Сериалы</a> |
+				<a href="rating.html">Рейтинг фильмов</a> |
+				<a href="contact.html">Контакты</a> 
+			</p>
+			<p>brf.com 2019</p>
+		</div>
+	</div>	
+</body>
+</html>
